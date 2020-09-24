@@ -1,4 +1,4 @@
-function ret = fourier_real (f, x, zi)
+function ret = fourier_r (f, x, zi)
     width = (x(numel(x)) - x(1)) / numel(x);
     for i=1:numel(zi)
         temp = 0;

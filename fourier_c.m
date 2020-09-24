@@ -1,4 +1,4 @@
-function [r,c] = fourier_cmpx (f, x, zi)
+function [r,c] = fourier_c (f, x, zi)
     width = (x(numel(x)) - x(1)) / numel(x);
     for i=1:numel(zi)
         rtemp = 0;
