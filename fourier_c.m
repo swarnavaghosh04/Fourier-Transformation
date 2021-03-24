@@ -1,3 +1,4 @@
+# Complex Fourier Transform
 function [r,c] = fourier_c (f, x, zi)
     width = (x(numel(x)) - x(1)) / numel(x);
     for i=1:numel(zi)
